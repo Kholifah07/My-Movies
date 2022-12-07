@@ -23,10 +23,11 @@ class MainActivity : AppCompatActivity() {
         viewModel.observeMovieLiveData().observe(this, Observer { movieList -> movieAdapter.setMovieList(movieList)
         })
     }
-
+// digunakan untuk menyiapakan recyclerview
     private fun prepareRecyclerView() {
         movieAdapter = MovieAdapter()
         binding.rvMovies.apply {
+           // digunakan untuk megatur tampilan
             layoutManager = GridLayoutManager(applicationContext,2)
             adapter = movieAdapter
         }

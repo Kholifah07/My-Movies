@@ -1,5 +1,5 @@
 package com.example.mymovie.Root
-
+// kelas data movies
 data class Movies(
     val page: Int,
     val results: List<Result>,

@@ -11,7 +11,7 @@ import com.example.mymovie.Root.RetrofitInstance
 import com.example.mymovie.Root.Result
 import retrofit2.Callback
 import retrofit2.Response
-
+// view model
 class MovieViewModel : ViewModel() {
         private var movieLiveData = MutableLiveData<List<Result>>()
         fun getPopularMovies() {

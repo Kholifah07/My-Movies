@@ -1,5 +1,6 @@
 package com.example.mymovie.Root
 
+// class data result
 data class Result(
     val adult: Boolean,
     val backdrop_path: String,

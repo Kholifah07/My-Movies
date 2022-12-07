@@ -6,7 +6,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.mymovie.databinding.MovieLayoutBinding
 import com.example.mymovie.Root.Result
-
+// RecyclerView
 class MovieAdapter : RecyclerView.Adapter<MovieAdapter.ViewHolder>() {
     private var movieList = ArrayList<Result>()
     fun setMovieList(movieList : List<Result>){
